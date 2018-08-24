@@ -1,0 +1,30 @@
+{
+  "name": "path-finder-server",
+  "version": "1.0.0",
+  "description": "server to interlink browser search clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PathFinder-org/path-finder-server.git"
+  },
+  "keywords": [
+    "path",
+    "finder",
+    "search",
+    "domain",
+    "paths"
+  ],
+  "author": "grenudi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PathFinder-org/path-finder-server/issues"
+  },
+  "homepage": "https://github.com/PathFinder-org/path-finder-server#readme",
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
